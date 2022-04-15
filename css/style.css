@@ -46,6 +46,7 @@ img {
 .link {
   text-decoration: none;
   color: var(--fourth-color);
+  transition: color 500ms, fill 500ms, background-color 500ms;
 }
 .container {
   width: 1200px;
@@ -78,7 +79,7 @@ img {
   cursor: pointer;
 }
 
-.secondary-header {
+.secondary-heading {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -87,7 +88,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.third-header {
+.third-heading {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -100,6 +101,8 @@ img {
 /* HEADER */
 
 .header {
+  max-width: 1600px;
+  margin: 0 auto;
   border-bottom: 1px solid var(--header-line);
 }
 
@@ -141,6 +144,7 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  transition: color 500ms;
 }
 .navigation-link {
   color: var(--main-color);
@@ -177,7 +181,7 @@ img {
 /* END HEADER */
 
 /* HERO */
-.welcome {
+.hero {
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
@@ -187,14 +191,14 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.welcome .main-header {
+.hero .main-heading {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.main-header {
+.main-heading {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -231,7 +235,7 @@ img {
   padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1.172;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -246,9 +250,22 @@ img {
 
 /* SERVICES */
 .services-list {
+  margin-bottom: -70px;
   display: flex;
   justify-content: space-between;
 }
+.services-list-title  {
+  position: relative;
+  padding: 0;
+  bottom: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--third-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 /* END SERVICES */
 
 /* OUR TEAM */
