@@ -625,7 +625,7 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color:var(--third-color);
-  background-image: url(/images/icon-close-black-18dp.svg);
+  background-image: url(../images/icon-close-black-18dp.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
